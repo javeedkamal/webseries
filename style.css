@@ -1,0 +1,32 @@
+body {
+    background-color: aquamarine;
+    place-items:center;
+}
+.column {
+   text-align: center;
+    max-width: 1000px;
+    width: 30px;
+    align-content: center;
+    background-color: black;
+    color: brown;
+    font-size: 30px;
+float: left;
+width: 50%;
+place-content:center;
+}
+
+.row:after {
+content: "";
+color: aquamarine;
+display: table;
+clear: both;
+}
+.column2 {
+    text-align: center;
+    align-items: center;
+    color: rgb(27, 46, 60);
+    font-size: 30px;
+    background-color: antiquewhite;
+    width:50%;
+    float: right;
+}
